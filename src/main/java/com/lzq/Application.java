@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @SpringBootApplication
 public class Application {
 
-//    @RequestMapping("/")
-//    public String index(){
-//        return "index";
-//    }
+    @RequestMapping("/")
+    public String index(){
+        return "index";
+    }
 
     @RequestMapping("/wx")
     @ResponseBody
